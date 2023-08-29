@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.28724013.css",
+    "main.js": "/portfolio/static/js/main.14078a97.js",
+    "static/js/787.aeca62f9.chunk.js": "/portfolio/static/js/787.aeca62f9.chunk.js",
+    "static/media/musicfeast.png": "/portfolio/static/media/musicfeast.f5c2403e6fa0a264b581.png",
+    "static/media/coding.png": "/portfolio/static/media/coding.68061a16751b1530f74d.png",
+    "static/media/defix3.png": "/portfolio/static/media/defix3.cf00aa76e28d4ee2e0d0.png",
+    "static/media/portafolio.png": "/portfolio/static/media/portafolio.ad1671c1bc49d7b5fe21.png",
+    "static/media/JOchandoCV.pdf": "/portfolio/static/media/JOchandoCV.b3147b63fd909cdf2f3c.pdf",
+    "static/media/planificacion.png": "/portfolio/static/media/planificacion.c82398f4ca2a757468e4.png",
+    "static/media/protinal.png": "/portfolio/static/media/protinal.c507344cedc641a6fe07.png",
+    "static/media/postgresql.png": "/portfolio/static/media/postgresql.02ac67a90f63c6993bdd.png",
+    "static/media/vuejs.png": "/portfolio/static/media/vuejs.ec2480daf869d1526b6f.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.444f3adcb6fd1d5e750c.png",
+    "static/media/globaldv.png": "/portfolio/static/media/globaldv.6c8eeafd5e7c08f9b8c8.png",
+    "static/media/react.png": "/portfolio/static/media/react.4ea195cfe12cf483c653.png",
+    "static/media/django.png": "/portfolio/static/media/django.804a3ffb12cfbc32cc76.png",
+    "static/media/docker.png": "/portfolio/static/media/docker.51ead7bfce590723cf2b.png",
+    "static/media/node-js.png": "/portfolio/static/media/node-js.446c7402659c812e94a5.png",
+    "static/media/python.png": "/portfolio/static/media/python.449a712450fc92a8810d.png",
+    "static/media/github.png": "/portfolio/static/media/github.aabf6c82d3d6513ca051.png",
+    "static/media/typescript.png": "/portfolio/static/media/typescript.cdacf8b338ede99e2cc5.png",
+    "static/media/resume.png": "/portfolio/static/media/resume.7fa466423e545947feb2.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.d0f25c119ad0caefcc37.png",
+    "index.html": "/portfolio/index.html",
+    "main.28724013.css.map": "/portfolio/static/css/main.28724013.css.map",
+    "main.14078a97.js.map": "/portfolio/static/js/main.14078a97.js.map",
+    "787.aeca62f9.chunk.js.map": "/portfolio/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28724013.css",
+    "static/js/main.14078a97.js"
+  ]
+}
