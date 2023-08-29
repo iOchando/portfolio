@@ -4,8 +4,9 @@ export const ProjectsData = [
     title: "DeFix3 - Monedero blockchain descentralizado",
     funcion: "Backend",
     image: require("../../assets/projects/defix3.png"),
+    images: [require("../../assets/projects/defix3.png"), require("../../assets/projects/defix3-2.png")],
     about:
-      "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. ",
+      "Desarrollé el backend de DeFix3, una billetera digital multi-chain que revoluciona la forma en que los usuarios gestionan activos digitales en varias blockchains desde cualquier dispositivo o navegador. Este monedero descentralizado y seguro proporciona una interfaz fácil de usar para simplificar las transacciones.",
     techs: [
       {
         icon: require("../../assets/techs/node-js.png"),
@@ -42,8 +43,13 @@ export const ProjectsData = [
     title: "MusicFeast - Donde los fanáticos de la música se unen",
     funcion: "Backend · Frontend Integration",
     image: require("../../assets/projects/musicfeast.png"),
+    images: [
+      require("../../assets/projects/musicfeast.png"),
+      require("../../assets/projects/musicfeast-2.png"),
+      require("../../assets/projects/musicfeast-3.png"),
+    ],
     about:
-      "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. ",
+      "Integración backend-frontend y desarrollo del backend de MusicFeast, un espacio donde los amantes de la música se conectan, muestran su apoyo, interactúan y obtienen objetos de colección valiosos. Además, ofrece opciones de propiedad de canciones y beneficios especiales/adelantos de sus artistas y proyectos favoritos.",
     techs: [
       {
         icon: require("../../assets/techs/javascript.png"),
@@ -88,8 +94,13 @@ export const ProjectsData = [
     title: "Sistema de Planificación, Control y Gestión",
     funcion: "Backend · Frontend",
     image: require("../../assets/projects/planificacion.png"),
+    images: [
+      require("../../assets/projects/planificacion.png"),
+      require("../../assets/projects/planificacion-2.png"),
+      require("../../assets/projects/planificacion-3.png"),
+    ],
     about:
-      "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. ",
+      "Desarrollé un Sistema de Planificación, Control y Gestión para una empresa que transformó la forma en que realizan la planificación para sus plantas de beneficio. Este sistema alivió la carga del planificador, automatizó procesos y optimizó el uso del tiempo de manera efectiva.",
     techs: [
       {
         icon: require("../../assets/techs/javascript.png"),
@@ -121,8 +132,13 @@ export const ProjectsData = [
     title: "Mi Portafolio",
     funcion: "Frontend",
     image: require("../../assets/projects/portafolio.png"),
+    images: [
+      require("../../assets/projects/portafolio.png"),
+      require("../../assets/projects/portafolio-2.png"),
+      require("../../assets/projects/portafolio-3.png"),
+    ],
     about:
-      "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. ",
+      "Desarrollé mi propio portafolio, una plataforma que me permite presentar proyectos y logros significativos en mi carrera profesional como desarrollador de software.",
     techs: [
       {
         icon: require("../../assets/techs/react.png"),
@@ -137,7 +153,7 @@ export const ProjectsData = [
       {
         icon: "fi fi-brands-github",
         name: "Github",
-        link: "https://github.com/iOchando/portfolio_react",
+        link: "https://github.com/iOchando/portfolio",
       },
     ],
   },

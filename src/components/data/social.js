@@ -9,4 +9,9 @@ export const SocialData = [
     link: "https://github.com/iOchando",
     icon: require("../../assets/icons/github.png"),
   },
+  {
+    social: "Mail",
+    link: "mailto:juanochando00@gmail.com",
+    icon: require("../../assets/icons/mail.png"),
+  },
 ];

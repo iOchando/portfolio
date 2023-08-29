@@ -1,8 +1,6 @@
 .social-contact{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 40%;
+  max-width: 60%;
 }
 
 .social-icon-div{
@@ -40,4 +38,9 @@
   .social-icon{
     height: 32px;
   }
+  .social-contact{
+    display: flex;
+    max-width: 100%;
+  }
+  
 }

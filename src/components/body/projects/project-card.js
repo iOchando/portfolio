@@ -1,7 +1,32 @@
-import React from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import "./project-card.css";
+import ImageViewer from "react-simple-image-viewer";
 
 function ProjectCard({ project }) {
+  const [currentImage, setCurrentImage] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
+
+  useEffect(() => {
+    const nextImage = () => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % project.images.length);
+    };
+
+    const intervalId = setInterval(nextImage, 10000);
+
+    return () => clearInterval(intervalId);
+  }, [project.images]);
+
+  const openImageViewer = useCallback((index) => {
+    setCurrentImage(index);
+    setIsViewerOpen(true);
+  }, []);
+
+  const closeImageViewer = () => {
+    setCurrentImage(currentIndex);
+    setIsViewerOpen(false);
+  };
+
   return (
     <div className="project-card">
       <div className="project-info">
@@ -33,7 +58,17 @@ function ProjectCard({ project }) {
           })}
         </div>
       </div>
-      <img src={project.image} alt="Project" className="project-photo" />
+
+      <img
+        src={project.images[currentIndex]}
+        onClick={() => openImageViewer(currentIndex)}
+        className={`project-photo ${isViewerOpen ? "fade-out" : ""}`}
+        key={0}
+        alt=""
+      />
+      {isViewerOpen && (
+        <ImageViewer src={project.images} currentIndex={currentImage} disableScroll={false} closeOnClickOutside={true} onClose={closeImageViewer} />
+      )}
     </div>
   );
 }
