@@ -7,8 +7,9 @@ function About() {
     <div className="about">
       <div className="about-top">
         <div className="about-info">
-          ¡Hola!👋🏻 Soy <br /> <span className="info-name">Juan Ochando</span>. <br /> Desarrolador de Software,
-          <br /> ¡Bienvenidos a mi portafolio!
+          ¡Hola!👋🏻 Soy <br /> <span className="info-name">Juan Ochando</span>, <br />
+          Ingeniero en Computación
+          <br />y Desarrollador de Software.
         </div>
         <div className="about-photo">
           <img src={require("../../../assets/coding.png")} className="picture" alt="coding" />

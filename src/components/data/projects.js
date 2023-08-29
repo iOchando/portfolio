@@ -137,7 +137,7 @@ export const ProjectsData = [
       {
         icon: "fi fi-brands-github",
         name: "Github",
-        link: "https://github.com/iOchando/frontend_miplanificacion",
+        link: "https://github.com/iOchando/portfolio_react",
       },
     ],
   },
