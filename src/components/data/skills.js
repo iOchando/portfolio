@@ -22,13 +22,25 @@ export const SkillsData = [
         name: "Django",
         icon: require("../../assets/techs/django.png"),
       },
+      {
+        name: "PostgreSQL",
+        icon: require("../../assets/techs/postgresql.png"),
+      },
+      {
+        name: "MongoDB",
+        icon: require("../../assets/techs/mongodb.png"),
+      },
+      {
+        name: "MySQL",
+        icon: require("../../assets/techs/mysql.png"),
+      },
     ],
   },
   {
     type: "Fronted",
     list: [
       {
-        name: "ReactJs",
+        name: "React",
         icon: require("../../assets/techs/react.png"),
       },
       {
@@ -41,12 +53,8 @@ export const SkillsData = [
     type: "Otras Tecnologías",
     list: [
       {
-        name: "PostgreSQL",
-        icon: require("../../assets/techs/postgresql.png"),
-      },
-      {
-        name: "MongoDB",
-        icon: require("../../assets/techs/mongodb.png"),
+        name: "Git",
+        icon: require("../../assets/techs/git.png"),
       },
       {
         name: "Github",
@@ -55,6 +63,14 @@ export const SkillsData = [
       {
         name: "Docker",
         icon: require("../../assets/techs/docker.png"),
+      },
+      {
+        name: "Swagger",
+        icon: require("../../assets/techs/swagger.png"),
+      },
+      {
+        name: "Postman",
+        icon: require("../../assets/techs/postman.png"),
       },
     ],
   },
