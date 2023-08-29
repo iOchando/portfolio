@@ -24,7 +24,7 @@
 .skills-list{
   display: flex;
   flex-wrap: wrap;
-  max-width: 80%;
+  max-width: 75%;
   margin: 30px;
   justify-content: end;
 }
