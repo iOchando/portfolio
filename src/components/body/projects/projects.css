@@ -1,0 +1,11 @@
+.projects{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.section-title{
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+}
