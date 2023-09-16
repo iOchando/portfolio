@@ -39,6 +39,32 @@ export const ProjectsData = [
     ],
   },
   {
+    id: 5,
+    title: "Alice AI - Asistente Virtual de WhatsApp con Inteligencia Artificial",
+    funcion: "Backend",
+    image: require("../../assets/projects/chatbot.png"),
+    images: [require("../../assets/projects/chatbot.png"), require("../../assets/projects/chatbot-2.png")],
+    about:
+      "Desarrollé un chatbot para WhatsApp potenciado por la inteligencia artificial de OpenAI. Este chatbot permite conversaciones naturales, al igual que ChatGPT, y se destaca por su capacidad para generar imágenes a partir de descripciones, convertir imágenes en stickers y admitir interacciones de voz mediante el reconocimiento de voz. Ofreciendo una experiencia de usuario completa y diversificada en la plataforma de WhatsApp.",
+    techs: [
+      {
+        icon: require("../../assets/techs/node-js.png"),
+        name: "NodeJs",
+      },
+      {
+        icon: require("../../assets/techs/typescript.png"),
+        name: "TypeScript",
+      },
+    ],
+    tags: [
+      {
+        icon: "fi fi-brands-whatsapp",
+        name: "WhatsApp",
+        link: "https://wa.me/qr/U6TJYASLTIDEG1",
+      },
+    ],
+  },
+  {
     id: 2,
     title: "MusicFeast - Donde los fanáticos de la música se unen",
     funcion: "Backend · Frontend Integration",
